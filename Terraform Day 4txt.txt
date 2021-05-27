@@ -1,0 +1,22 @@
+1. Login to github and terraform registry 
+
+https://github.com/
+
+https://registry.terraform.io/
+
+2. Create a repo in github
+
+top right -> + -> New repository -> enter name (terraforms3bucket) -> public repo -> add a readme file -> create repository -> 
+
+3. Add .gitignore file
+
+4. Git commands to push the scripts into repository
+
+git init
+git remote add origin https://github.com/akilagithub/terraforms3bucket.git
+git add .
+git commit -m "Added the tf modeuls and scripts"
+git pull origin main --allow-unrelated-histories
+git push origin master
+
+5. Publish to registry
